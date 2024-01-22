@@ -1,0 +1,21 @@
+::before
+::after {
+  align-content: center;
+}
+
+ body { 
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(69, 85, 69);
+}
+
+#welcome{
+ background-image: url("../assets/welcomeImg.png"); 
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(145, 141, 141);
+
+}
